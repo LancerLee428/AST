@@ -1,6 +1,6 @@
 /**
  * 将html转AST
- * let html = '<div class="classAttr" data-type="dataType" data-id="dataId" style="color:red">我是外层div<span>我是内层span</span></div>';
+ * let html = '<div data-type='dataType' class='test'>我是一个div</div>';
  */
 const html2AST = (html) => {
   // 起始标签 相当于<div>
